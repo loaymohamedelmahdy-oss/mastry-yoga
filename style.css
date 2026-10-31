@@ -114,9 +114,9 @@ nav ul li a{
 .social-icons, i {
     animation:slideFromLeft 1.2s ease-out;
 }
-/* --- الجزء الخاص بالاستجابة للشاشات الصغيرة والموبايل --- */
+
 @media (max-width: 768px) {
-    /* تنظيم الـ Navbar عشان اللوجو والروابط ينزلوا تحت بعض أو يتظبطوا */
+ 
     nav {
         flex-direction: column;
         height: auto;
@@ -134,28 +134,27 @@ nav ul li a{
         font-size: 14px;
     }
 
-    /* تحويل الـ Container ليكون عمودي (النص وفوقه أو تحته الصورة) */
+   
     .container {
         flex-direction: column;
         text-align: center;
     }
 
-    /* ضبط مساحة النص والعنوان على الموبايل */
     .content {
         margin-left: 0;
         padding: 0 20px;
     }
 
     .content h1 {
-        font-size: 36px; /* تصغير العنوان الضخم شوية للموبايل */
+        font-size: 36px; 
     }
 
     .content p {
-        width: 100%; /* جعل الفقرة تملأ الشاشة بدلاً من عرض ثابت 500px */
+        width: 100%; 
         font-size: 16px;
     }
 
-    /* ضبط الصورة على الشاشات الصغيرة */
+  
     .image img {
         width: 80%;
         max-width: 280px;
@@ -163,7 +162,7 @@ nav ul li a{
         margin-top: 30px;
     }
 
-    /* توسيط أيقونات السوشيال ميديا */
+  
     .social {
         display: flex;
         justify-content: center;
